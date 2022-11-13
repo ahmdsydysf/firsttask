@@ -1,0 +1,24 @@
+.navbar {
+     background-color: darkslategrey;
+     display: flex;
+}
+
+.navbar .logo  {
+flex-basis: 50%;
+}
+
+.navbar .rightLinks {
+     display: flex;
+     justify-items: center;
+     justify-content: space-between;
+}
+.navbar .rightLinks ul {
+     display: flex;
+     align-content: center;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.navbar .rightLinks ul li{
+     list-style: none;
+}

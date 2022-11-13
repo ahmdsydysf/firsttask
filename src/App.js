@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './Header';
+import { Footer as EndOf } from './Footer';
+import SlidData from './Slider';
 
 function App() {
+
+
   return (
     <div className="App">
+      <Nav logoName='M-React' fLink='Home' sLink='About' tLink='Contact' />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,7 +23,9 @@ function App() {
         >
           Learn React
         </a>
+        <SlidData />
       </header>
+      <EndOf clr='Red' />
     </div>
   );
 }
